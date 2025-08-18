@@ -9,7 +9,7 @@ on:
       branches:
         - main
         - 'dev-*' # dev-new dev-another
-        - 'uat/**' # uat/new uat/new/butoon
+        - 'uat/**' # uat/new uat/new/butoon include /
       paths-ignore:
         - '.github/workflows/*'
       
